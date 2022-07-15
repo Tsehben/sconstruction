@@ -931,20 +931,24 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
+    margin: auto;
 }
 
 .team .team-item {
     position: relative;
     margin-bottom: 30px;
     overflow: hidden;
+    margin: auto;
 }
 
 .team .team-img {
-    position: relative;
+    position: center;
+    margin: auto;
 }
 
 .team .team-img img {
     width: 100%;
+    margin: auto;
 }
 
 .team .team-text {
@@ -2233,3 +2237,11 @@ a:focus {
         text-align: center;
     }
 }
+
+.middle{
+    float: right;
+    margin: 0 auto;
+    width : 10px;
+    height: 100px;
+   
+} 
